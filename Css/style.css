@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(228, 177, 130);
+    font-size: larger;
+    text-align: center;
+    /* background-image: url("../Imagens/torre-eiffel-paris-franca.jpg"); */
+    /* background-repeat: no-repeat; */
+    
+    /* margin: 30px; */
+    /* display: flex; */
+}
+
+h1{
+    color: brown;
+}
+h2{
+    color: brown;
+}
+.p{
+    color: brown;
+    font-size: 16px;
+}
+img{
+    align-self: center;
+}
+
+table, tr, th, td{
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+}
+.estilo1{
+    color: black;
+}
+
+
+
+#intro{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6;
+    color: black;
+}
+
+.geral{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.listas{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+
+/* 
+>> Atributos do flex-box
+
+flex-direction
+flex-wrap
+flex-flow
+justify-content
+align-items
+align-content
+gap
+flex-grow
+
+*/
+
+/* 
+Atributos do Grid
+
+gird-template-columns
+grid-template-rows
+
+*/

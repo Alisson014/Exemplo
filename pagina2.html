@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title> P1</title>
+    <link rel="stylesheet" href="Css/style.css">
+
+    <style>
+        .item1{
+            grid-area: header;
+        }
+        .item2{
+            grid-area: menu;
+        }
+        .item3{
+            grid-area: main;
+        }
+        .item4{
+            grid-area: right;
+        }
+        .item5{
+            grid-area: footer;
+        }   
+        .grid_conteiner{
+            display: grid;
+
+            grid-template-areas: 
+            'header header header header header'
+            'menu main main main main right'
+            'menu footer footer footer footer right';
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Grid Layout</h1>
+    <h2><a href="index.html">Vai para o index</a></h2>
+    
+    <h3>Título Grande</h3>
+    <p><b>Olá</b> Confira as primeiras páginas</p>
+	<hr>
+
+    <div class="grid_conteiner">
+        <div class="item1">Título</div>
+        <div class="item2">Menu</div>
+        <div class="item3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum minima ad aut libero</div>
+        <div class="item4">right</div>
+        <div class="item5">footer</div>
+    </div>
+</body>
+
+</html>
